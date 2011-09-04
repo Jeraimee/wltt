@@ -11,6 +11,6 @@ feature 'Home Page', %q{
     visit "/"
     page.should have_link('Sign In')
     page.should have_selector('title', :content => "WeLikeToTravel")
-    page.should have_content('What is WeLikeToTravel?')
+    page.should have_content('What is WLTT?')
   end
 end
